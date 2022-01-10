@@ -26,9 +26,19 @@ html {
     display: flex;
 }
 
+.column_right img {
+    content: 0;
+    width: 560px;
+    
+    background-image: url('./stats-preview-card-component-main/images/image-header-desktop.jpg');
+    color: blueviolet;
+}
+
 .column_right img{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    opacity: .4;
+    color: rgba(255,255,0,0.5);
 }
 
 
@@ -96,7 +106,7 @@ a {
 
     .column_left {
         width: 300px;
-        height: 720px;
+        height: 620px;
     }
 
     .column_left {
@@ -131,5 +141,10 @@ a {
     .li_header {
         font-size: 21px;
         font-weight: 800;
+    }
+
+    .column_right img{
+        width: 300px;
+
     }
 }
